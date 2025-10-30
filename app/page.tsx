@@ -3,7 +3,7 @@
 import { cn } from "@/lib/utils"
 import { DotPattern } from "@/components/ui/dot-pattern"
 import Image from "next/image"
-
+import { TextReveal } from "@/components/ui/text-reveal"
 import { TextAnimate } from "@/components/ui/text-animate"
 
 
@@ -77,16 +77,40 @@ export default function Home() {
     </main>
 
     {/* Second Section with dark background and centered GIF */}
-    <section className="min-h-screen flex items-center justify-center" style={{ backgroundColor: '#222222' }}>
-      <Image
-        src="/Main-UI.gif"
-        alt="Main UI preview"
-        width={900}
-        height={900}
-        priority
-        unoptimized
-        className="w-[40vw] max-w-[1000px] h-auto"
-      />
+
+    <section className="min-h-screen flex flex-col items-center justify-center pt-50" style={{ backgroundColor: '#222222' }}>
+      
+      <div>
+        <Image
+          src="/Main-UI.gif"
+          alt="Main UI preview"
+          width={1200}
+          height={1200}
+          priority
+          unoptimized
+          className="w-[50vw] max-w-[1000px] h-auto" 
+        />
+      </div>
+
+      <div className="absolute right-6 mt-[-220]">
+        <Image
+          src="/dock.png"
+          alt="Dock Icon"
+          width={250}
+          height={250}
+          priority
+          unoptimized/>
+      </div>
+
+      <div className="mt-[-100]" style={{ fontFamily: 'Cal Sans, sans-serif'}}>
+        <span><TextReveal className="text-8xl md:text-8xl text-center text-white" >
+          Find Your Items
+        </TextReveal></span>
+        <span><TextReveal className="text-8xl md:text-8xl text-center text-white mt-[-300]" >
+          With Ease
+        </TextReveal></span>
+      </div>
+      
     </section>
     </>
   )
