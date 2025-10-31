@@ -110,7 +110,87 @@ export default function Home() {
           With Ease
         </TextReveal></span>
       </div>
-      
+    </section>
+
+
+    <section>
+      <div className="min-h-screen bg-gray-100 p-8" style={{ fontFamily: 'Cal Sans, sans-serif'}}>
+      <div className="max-w-7xl mt-30 mx-auto grid grid-cols-6 grid-rows-6 gap-4 h-[800px]">
+        
+        {/* Switch Workspaces - Top Left */}
+        <div className="col-span-2 row-span-3 bg-gradient-to-br from-purple-300 to-purple-400 rounded-3xl p-8 flex flex-col justify-between overflow-hidden relative">
+          <div>
+            <h2 className="text-3xl font-bold text-purple-900 mb-3"> <span>Switch<br />Workspaces</span></h2>
+            <p className="text-purple-800"><span>Easily switch <br /> between different <br /> workspaces or <br />  sessions.</span></p>
+          </div>
+          <div className="absolute bottom-4 right-4">
+           <Image
+            src="/Scene-1.gif"
+            alt="Sample Image 1"
+            width={800}
+            height={800}>
+           </Image>
+          </div>
+        </div>
+
+        {/* Image Manipulation - Center Large */}
+        <div className="col-span-2 row-span-7 bg-gradient-to-br from-yellow-200 to-yellow-300 rounded-3xl p-8 flex flex-col">
+         
+        </div>
+
+        {/* Control Opacity - Top Right */}
+        <div className="col-span-2 row-span-2 bg-white rounded-3xl p-8 flex items-end justify-end">
+          
+        </div>
+
+        {/* Tunes to work to - Bottom Left */}
+        <div className="col-span-2 row-span-5 bg-gradient-to-br from-orange-300 to-orange-400 rounded-3xl p-8 flex items-center justify-between">
+          
+        </div>
+
+        {/* Lock & Play - Bottom Right */}
+        <div className="col-span-2 row-span-4 bg-gradient-to-br from-lime-200 to-lime-300 rounded-3xl p-8 flex flex-col">
+          
+        </div>
+
+      </div>
+    </div>
+    </section>
+
+    <section>
+
+      <div className="mt-[-70] relative z-10 " style={{ fontFamily: 'Cal Sans, sans-serif'}}>
+        <span><TextReveal className="text-8xl md:text-8xl text-center text-black" >
+          Made For You,
+        </TextReveal></span>
+        <span><TextReveal className="text-8xl md:text-8xl text-center text-black mt-[-300]" >
+          Made Around You.
+        </TextReveal></span>
+
+        <div className="flex items-center justify-center relative z-0 mt-[-190]">
+        <Image
+          src="/Group 5.png"
+          alt="Devices preview"
+          width={800}
+          height={800}
+          priority
+          unoptimized>
+
+        </Image>
+        </div>
+
+        <div className=" relative z-0 flex items-center justify-center mt-[-45] pb-10">
+          <button
+            className="bg-blue-600 hover:bg-blue-700 text-white text-3xl px-9 py-5 rounded-3xl border-2 border-blue-700"
+            style={{ fontFamily: 'Cal Sans, sans-serif' }}
+            onClick={() =>
+              window.open("https://tally.so/r/m6b0aO", "_blank")
+            }
+          >
+          Join Wishlist Now
+          </button>
+        </div>
+      </div>
     </section>
     </>
   )
