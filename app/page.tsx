@@ -204,7 +204,7 @@ export default function Home() {
 
         {/* Image Manipulation - Center Large */}
         <div className="col-span-2 row-span-6 bg-gradient-to-br from-yellow-200 to-yellow-300 rounded-3xl p-8 flex flex-col items-center justify-between">
-          <div className="text-center">
+          <div className="text-center mt-20">
             <h2 className="text-5xl  text-yellow-900 mb-2">Image<br />Manipulation</h2>
             <p className="text-yellow-800 text-lg">Do flips, inverts, mirrors and<br />rotate on added files to<br />compliment your workflow</p>
           </div>
@@ -212,8 +212,8 @@ export default function Home() {
             <Image
             src="/Scene-1 (4).gif"
             alt="Sample Image 1"
-            width={900}
-            height={900}>
+            width={1000}
+            height={1000}>
           </Image>
           </div>
         </div>
@@ -226,7 +226,7 @@ export default function Home() {
           </div>
           <div>
             <Image
-            src="/Scene-1 (4).gif"
+            src="/gif2.gif"
             alt="Sample Image 1"
             width={800}
             height={800}>
@@ -251,15 +251,16 @@ export default function Home() {
         </div>
 
         {/* Tunes to work to - Bottom Left */}
-<div className="col-span-2 row-span-3 bg-gradient-to-br from-lime-200 to-lime-300 rounded-3xl p-8 relative overflow-hidden flex items-center">
-  <div className="absolute right-30 top-1/2 -translate-y-1/2 z-0">
+        <div className="col-span-2 row-span-3 bg-gradient-to-br from-lime-200 to-lime-300 rounded-3xl p-8 relative overflow-hidden flex">
+  <div className="absolute bottom-0 "> {/* moved left by 8rem */}
     <Image
       src="/Scene-1 (1).gif"
       alt="Sample Image 1"
-      width={600}
-      height={600}
+      width={1000}
+      height={1000}
     />
   </div>
+
 
   <div className="relative z-10 ml-auto mr-8 flex flex-col gap-2">
     <h2 className="text-4xl  text-lime-900 leading-tight">
@@ -314,7 +315,7 @@ export default function Home() {
               <p className="text-gray-700">Adjust transparency of layers and objects with ease</p>
               <div className="self-center mt-4">
                 <Image
-                  src="/Scene-1 (4).gif"
+                  src="/gif2.gif"
                   alt="Control Opacity"
                   width={300}
                   height={300}
@@ -355,7 +356,7 @@ export default function Home() {
     )}
 
     {mounted && !isMobile ? (
-      <section>
+      <section >
 
       <div className="mt-[-70] relative z-10 " style={{ fontFamily: 'Cal Sans, sans-serif'}}>
         <span><TextReveal className="text-8xl md:text-8xl text-center text-black" >
@@ -369,8 +370,8 @@ export default function Home() {
         <Image
           src="/Group 5.png"
           alt="Devices preview"
-          width={600}
-          height={600}
+          width={700}
+          height={700}
           priority
           unoptimized>
 
