@@ -22,29 +22,17 @@ export default function Home() {
       />
 
       {/* Overlay GIF on main content */}
-      {mounted && !isMobile ? <div className="absolute inset-0 z-20 flex items-center justify-end pr-6 md:pr-10 pointer-events-none">
+      <div className="absolute inset-0 z-20 flex items-center justify-end pr-6 md:pr-10 pointer-events-none">
         <Image
           src="/main.gif"
           alt="Animated preview"
-          width={900}
-          height={900}
+          width={600}
+          height={600}
           priority
           unoptimized
-          className="animate-fade-in"
+          className="w-[60vw] h-auto animate-fade-in"
         />
-      </div> : (
-        <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none opacity-50">
-            <Image
-                src="/main.gif"
-                alt="Animated preview"
-                width={600}
-                height={600}
-                priority
-                unoptimized
-                className="animate-fade-in"
-            />
-        </div>
-      )}
+      </div>
 
 
       {/* Main Content */}
@@ -85,7 +73,7 @@ export default function Home() {
         </p>
 
         {/* CTA Button */}
-        <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }}>
+        <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }} onClick={() => window.open("https://tally.so/r/m6b0aO", "_blank")}>
           See Features and wishlist
         </button>
       </div> : (
@@ -200,10 +188,10 @@ export default function Home() {
         {/* Switch Workspaces - Top Left */}
         <div className="col-span-2 row-span-3 bg-linear-to-br from-purple-300 to-purple-400 rounded-3xl p-8 flex flex-col justify-between overflow-hidden relative">
           <div>
-            <h2 className="text-3xl font-bold text-purple-900 mb-3"> <span>Switch<br />Workspaces</span></h2>
+            <h2 className="text-3xl  text-purple-900 mb-3"> <span>Switch<br />Workspaces</span></h2>
             <p className="text-purple-800"><span>Easily switch <br /> between different <br /> workspaces or <br />  sessions.</span></p>
           </div>
-          <div className="absolute bottom-4 right-4">
+          <div className="absolute bottom-0 right-4">
           <Image
             src="/Scene-1.gif"
             alt="Sample Image 1"
@@ -216,7 +204,7 @@ export default function Home() {
         {/* Image Manipulation - Center Large */}
         <div className="col-span-2 row-span-7 bg-gradient-to-br from-yellow-200 to-yellow-300 rounded-3xl p-8 flex flex-col items-center justify-between">
           <div className="text-center">
-            <h2 className="text-5xl font-bold text-yellow-900 mb-2">Image<br />Manipulation</h2>
+            <h2 className="text-5xl  text-yellow-900 mb-2">Image<br />Manipulation</h2>
             <p className="text-yellow-800 text-lg">Do flips, inverts, mirrors and<br />rotate on added files to<br />compliment your workflow</p>
           </div>
           <div>
@@ -232,7 +220,7 @@ export default function Home() {
         {/* Control Opacity - Top Right */}
         <div className="col-span-2 row-span-2 bg-white rounded-3xl p-8 flex items-start justify-between">
           <div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">Control<br />Opacity</h2>
+            <h2 className="text-3xl  text-gray-900 mb-2">Control<br />Opacity</h2>
             <p className="text-gray-700">Adjust transparency<br />of layers and<br />objects with ease</p>
           </div>
           <div>
@@ -248,7 +236,7 @@ export default function Home() {
         {/* Lock & Play - Bottom Right */}
         <div className="col-span-2 row-span-4 bg-gradient-to-br from-orange-300 to-orange-400 rounded-3xl p-8 flex flex-col justify-between">
           <div className="flex justify-between items-start">
-            <h2 className="text-4xl font-bold text-orange-900">Lock &<br />Play</h2>
+            <h2 className="text-4xl  text-orange-900">Lock &<br />Play</h2>
             <p className="text-orange-800 text-right">Lock your window to do<br />your work without it<br />getting in your way</p>
           </div>
           <div>
@@ -263,17 +251,17 @@ export default function Home() {
 
         {/* Tunes to work to - Bottom Left */}
 <div className="col-span-2 row-span-5 bg-gradient-to-br from-lime-200 to-lime-300 rounded-3xl p-8 relative overflow-hidden flex items-center">
-  <div className="absolute right-30 top-1/2 -translate-y-1/2 z-0">
+  <div className="absolute pl-10 top-1/2 -translate-y-1/2 z-0">
     <Image
       src="/Scene-1 (1).gif"
       alt="Sample Image 1"
-      width={400}
-      height={400}
+      width={600}
+      height={600}
     />
   </div>
   
   <div className="relative z-10 ml-auto mr-8 flex flex-col gap-2">
-    <h2 className="text-4xl font-bold text-lime-900 leading-tight">
+    <h2 className="text-4xl  text-lime-900 leading-tight">
       Tunes to<br />work to
     </h2>
     <p className="text-lime-800 text-base">
@@ -292,7 +280,7 @@ export default function Home() {
             {/* Switch Workspaces */}
             <div className="bg-gradient-to-br from-purple-300 to-purple-400 rounded-3xl p-6 flex flex-col justify-between overflow-hidden relative min-h-[350px]">
               <div>
-                <h2 className="text-2xl font-bold text-purple-900 mb-2">Switch Workspaces</h2>
+                <h2 className="text-2xl text-purple-900 mb-2">Switch Workspaces</h2>
                 <p className="text-purple-800">Easily switch between different workspaces or sessions.</p>
               </div>
               <div className="self-center mt-4">
@@ -307,7 +295,7 @@ export default function Home() {
     
             {/* Image Manipulation */}
             <div className="bg-gradient-to-br from-yellow-200 to-yellow-300 rounded-3xl p-6 flex flex-col items-center text-center">
-              <h2 className="text-3xl font-bold text-yellow-900 mb-2">Image Manipulation</h2>
+              <h2 className="text-3xl text-yellow-900 mb-2">Image Manipulation</h2>
               <p className="text-yellow-800">Do flips, inverts, mirrors and rotate on added files to compliment your workflow</p>
               <div className="mt-4">
                 <Image
@@ -321,7 +309,7 @@ export default function Home() {
     
             {/* Control Opacity */}
             <div className="bg-white rounded-3xl p-6 flex flex-col">
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">Control Opacity</h2>
+              <h2 className="text-2xl  text-gray-900 mb-2">Control Opacity</h2>
               <p className="text-gray-700">Adjust transparency of layers and objects with ease</p>
               <div className="self-center mt-4">
                 <Image
@@ -335,7 +323,7 @@ export default function Home() {
     
             {/* Lock & Play */}
             <div className="bg-gradient-to-br from-orange-300 to-orange-400 rounded-3xl p-6 flex flex-col">
-              <h2 className="text-3xl font-bold text-orange-900">Lock & Play</h2>
+              <h2 className="text-3xl  text-orange-900">Lock & Play</h2>
               <p className="text-orange-800">Lock your window to do your work without it getting in your way</p>
               <div className="self-center mt-4">
                 <Image
@@ -349,7 +337,7 @@ export default function Home() {
     
             {/* Tunes to work to */}
             <div className="bg-gradient-to-br from-lime-200 to-lime-300 rounded-3xl p-6 flex flex-col">
-              <h2 className="text-3xl font-bold text-lime-900 leading-tight">Tunes to work to</h2>
+              <h2 className="text-3xl  text-lime-900 leading-tight">Tunes to work to</h2>
               <p className="text-lime-800">Play your favourite tracks and videos within collective</p>
               <div className="self-center mt-4">
                 <Image
@@ -380,8 +368,8 @@ export default function Home() {
         <Image
           src="/Group 5.png"
           alt="Devices preview"
-          width={800}
-          height={800}
+          width={600}
+          height={600}
           priority
           unoptimized>
 
@@ -403,10 +391,10 @@ export default function Home() {
     </section>) : (
       <section>
         <div className="relative z-10 " style={{ fontFamily: 'Cal Sans, sans-serif'}}>
-          <span><TextReveal className="text-5xl text-center text-black" >
+          <span><TextReveal className="text-5xl text-center " >
             Made For You,
           </TextReveal></span>
-          <span><TextReveal className="text-5xl text-center text-black mt-[-300]" >
+          <span><TextReveal className="text-5xl text-center  mt-[-300]" >
             Made Around You.
           </TextReveal></span>
   
