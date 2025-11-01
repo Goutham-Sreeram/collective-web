@@ -75,7 +75,7 @@ export default function Home() {
 
         {/* CTA Button */}
         <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }} onClick={() => window.open("https://tally.so/r/m6b0aO", "_blank")}>
-          See Features and wishlist
+         Add to Wishlist
         </button>
       </div> : (
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
@@ -112,8 +112,8 @@ export default function Home() {
             Keep your references close and your ideas closer
           </p>
           {/* CTA Button */}
-          <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-6 py-3 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }}>
-            See Features and wishlist
+          <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-6 py-3 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }} onClick={() => window.open("https://tally.so/r/m6b0aO", "_blank")}>
+           Add to Wishlist
           </button>
         </div>
       )}
