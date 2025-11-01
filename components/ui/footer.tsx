@@ -17,17 +17,16 @@ export function FooterComponent() {
     <Footer container className="bg-blue-600 text-white" style={{ fontFamily: 'Cal Sans, sans-serif' ,  backgroundColor: '#222222' }}>
       <div className="w-full">
         <div className="grid w-full gap-8 sm:flex sm:justify-between md:grid-cols-1">
-          <div>
+          <div className="max-w-[200px] max-h-[200px]">
             <FooterBrand
               href="https://flowbite.com"
-              src="https://flowbite.com/docs/images/logo.svg"
-              alt="Flowbite Logo"
-              name="Flowbite"
+              src="/logo.svg"
+              
               className="text-white"
             />
           </div>
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
-            <div>
+            {/* <div>
               <FooterTitle title="about" className="text-white" />
               <FooterLinkGroup col>
                 <FooterLink href="#" className="text-white hover:text-gray-200">Flowbite</FooterLink>
@@ -47,18 +46,18 @@ export function FooterComponent() {
                 <FooterLink href="#" className="text-white hover:text-gray-200">Privacy Policy</FooterLink>
                 <FooterLink href="#" className="text-white hover:text-gray-200">Terms &amp; Conditions</FooterLink>
               </FooterLinkGroup>
-            </div>
+            </div> */}
           </div>
         </div>
         <FooterDivider className="my-6 border-gray-400" />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <FooterCopyright href="#" by="Flowbite™" year={2022} className="text-white" />
+          <FooterCopyright href="#" by="Collective™" year={2025} className="text-white" />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <FooterIcon href="#" icon={BsFacebook} className="text-white hover:text-gray-200" />
+            {/* <FooterIcon href="#" icon={BsFacebook} className="text-white hover:text-gray-200" /> */}
             <FooterIcon href="#" icon={BsInstagram} className="text-white hover:text-gray-200" />
             <FooterIcon href="#" icon={BsTwitter} className="text-white hover:text-gray-200" />
             <FooterIcon href="#" icon={BsGithub} className="text-white hover:text-gray-200" />
-            <FooterIcon href="#" icon={BsDribbble} className="text-white hover:text-gray-200" />
+            {/* <FooterIcon href="#" icon={BsDribbble} className="text-white hover:text-gray-200" /> */}
           </div>
         </div>
       </div>

@@ -203,7 +203,7 @@ export default function Home() {
         </div>
 
         {/* Image Manipulation - Center Large */}
-        <div className="col-span-2 row-span-6 bg-gradient-to-br from-yellow-200 to-yellow-300 rounded-3xl p-8 flex flex-col items-center justify-between">
+        <div className="col-span-2 row-span-6 bg-gradient-to-br from-yellow-200 to-yellow-300 rounded-3xl p-4 flex flex-col items-center justify-between">
           <div className="text-center mt-20">
             <h2 className="text-5xl  text-yellow-900 mb-2">Image<br />Manipulation</h2>
             <p className="text-yellow-800 text-lg">Do flips, inverts, mirrors and<br />rotate on added files to<br />compliment your workflow</p>
@@ -251,18 +251,18 @@ export default function Home() {
         </div>
 
         {/* Tunes to work to - Bottom Left */}
-        <div className="col-span-2 row-span-3 bg-gradient-to-br from-lime-200 to-lime-300 rounded-3xl p-8 relative overflow-hidden flex">
-  <div className="absolute bottom-0 "> {/* moved left by 8rem */}
+        <div className="col-span-2 row-span-3 bg-gradient-to-br from-lime-200 to-lime-300 rounded-3xl p-2 relative overflow-hidden flex flex-row gap-2 items-center">
+  <div className="max-w-[200px] max-h-[200px] "> {/* moved left by 8rem */}
     <Image
-      src="/Scene-1 (1).gif"
+      src="music-player.gif"
       alt="Sample Image 1"
-      width={1000}
-      height={1000}
+      width={400}
+      height={400}
     />
   </div>
 
 
-  <div className="relative z-10 ml-auto mr-8 flex flex-col gap-2">
+  <div className="relative z-10 mr-6 flex flex-col gap-2">
     <h2 className="text-4xl  text-lime-900 leading-tight">
       Tunes to<br />work to
     </h2>
