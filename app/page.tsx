@@ -133,7 +133,7 @@ export default function Home() {
     {/* Second Section with dark background and centered GIF */}
     {mounted && !isMobile ? (
     <section className="min-h-screen flex flex-col items-center justify-center pt-50" style={{ backgroundColor: '#222222' }}>
-      
+
       <div>
         <Image
           src="/Main-UI.gif"
@@ -142,7 +142,7 @@ export default function Home() {
           height={1200}
           priority
           unoptimized
-          className="w-[50vw] max-w-[1000px] h-auto" 
+          className="w-[50vw] max-w-[1000px] h-auto"
         />
       </div>
 
@@ -174,11 +174,11 @@ export default function Home() {
             height={600}
             priority
             unoptimized
-            className="w-[80vw] max-w-[500px] h-auto" 
+            className="w-[80vw] max-w-[500px] h-auto"
           />
         </div>
-  
-        
+
+
 
         <div style={{ fontFamily: 'Cal Sans, sans-serif'}}>
           <span><TextReveal className="text-5xl text-center text-white" >
@@ -196,7 +196,7 @@ export default function Home() {
       <section>
       <div className="min-h-screen bg-gray-100 p-8" style={{ fontFamily: 'Cal Sans, sans-serif'}}>
       <div className="max-w-7xl mt-30 mx-auto grid grid-cols-6 grid-rows-6 gap-4 h-[800px]">
-        
+
         {/* Switch Workspaces - Top Left */}
         <div className="col-span-2 row-span-3 bg-linear-to-br from-purple-300 to-purple-400 rounded-3xl p-8 flex flex-col justify-between overflow-hidden relative">
           <div>
@@ -214,7 +214,7 @@ export default function Home() {
         </div>
 
         {/* Image Manipulation - Center Large */}
-        <div className="col-span-2 row-span-7 bg-gradient-to-br from-yellow-200 to-yellow-300 rounded-3xl p-8 flex flex-col items-center justify-between">
+        <div className="col-span-2 row-span-6 bg-gradient-to-br from-yellow-200 to-yellow-300 rounded-3xl p-8 flex flex-col items-center justify-between">
           <div className="text-center">
             <h2 className="text-5xl font-bold text-yellow-900 mb-2">Image<br />Manipulation</h2>
             <p className="text-yellow-800 text-lg">Do flips, inverts, mirrors and<br />rotate on added files to<br />compliment your workflow</p>
@@ -262,7 +262,7 @@ export default function Home() {
         </div>
 
         {/* Tunes to work to - Bottom Left */}
-<div className="col-span-2 row-span-5 bg-gradient-to-br from-lime-200 to-lime-300 rounded-3xl p-8 relative overflow-hidden flex items-center">
+<div className="col-span-2 row-span-3 bg-gradient-to-br from-lime-200 to-lime-300 rounded-3xl p-8 relative overflow-hidden flex items-center">
   <div className="absolute right-30 top-1/2 -translate-y-1/2 z-0">
     <Image
       src="/Scene-1 (1).gif"
@@ -271,7 +271,7 @@ export default function Home() {
       height={400}
     />
   </div>
-  
+
   <div className="relative z-10 ml-auto mr-8 flex flex-col gap-2">
     <h2 className="text-4xl font-bold text-lime-900 leading-tight">
       Tunes to<br />work to
@@ -288,7 +288,7 @@ export default function Home() {
       <section>
         <div className="min-h-screen bg-gray-100 p-4" style={{ fontFamily: 'Cal Sans, sans-serif'}}>
           <div className="max-w-md mt-10 mx-auto flex flex-col gap-4">
-            
+
             {/* Switch Workspaces */}
             <div className="bg-gradient-to-br from-purple-300 to-purple-400 rounded-3xl p-6 flex flex-col justify-between overflow-hidden relative min-h-[350px]">
               <div>
@@ -304,7 +304,7 @@ export default function Home() {
                 />
               </div>
             </div>
-    
+
             {/* Image Manipulation */}
             <div className="bg-gradient-to-br from-yellow-200 to-yellow-300 rounded-3xl p-6 flex flex-col items-center text-center">
               <h2 className="text-3xl font-bold text-yellow-900 mb-2">Image Manipulation</h2>
@@ -318,7 +318,7 @@ export default function Home() {
                 />
               </div>
             </div>
-    
+
             {/* Control Opacity */}
             <div className="bg-white rounded-3xl p-6 flex flex-col">
               <h2 className="text-2xl font-bold text-gray-900 mb-2">Control Opacity</h2>
@@ -332,7 +332,7 @@ export default function Home() {
                 />
               </div>
             </div>
-    
+
             {/* Lock & Play */}
             <div className="bg-gradient-to-br from-orange-300 to-orange-400 rounded-3xl p-6 flex flex-col">
               <h2 className="text-3xl font-bold text-orange-900">Lock & Play</h2>
@@ -346,7 +346,7 @@ export default function Home() {
                 />
               </div>
             </div>
-    
+
             {/* Tunes to work to */}
             <div className="bg-gradient-to-br from-lime-200 to-lime-300 rounded-3xl p-6 flex flex-col">
               <h2 className="text-3xl font-bold text-lime-900 leading-tight">Tunes to work to</h2>
@@ -409,7 +409,7 @@ export default function Home() {
           <span><TextReveal className="text-5xl text-center text-black mt-[-300]" >
             Made Around You.
           </TextReveal></span>
-  
+
           <div className="flex items-center justify-center relative z-0 mt-[-150px]">
             <Image
               src="/Group 5.png"
@@ -420,7 +420,7 @@ export default function Home() {
               unoptimized
             />
           </div>
-  
+
           <div className=" relative z-0 flex items-center justify-center mt-[-25px] pb-10">
             <button
               className="bg-blue-600 hover:bg-blue-700 text-white text-2xl px-8 py-4 rounded-3xl border-2 border-blue-700"
