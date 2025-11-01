@@ -7,6 +7,7 @@ import { DotPattern } from "@/components/ui/dot-pattern"
 import Image from "next/image"
 import { TextReveal } from "@/components/ui/text-reveal"
 import { TextAnimate } from "@/components/ui/text-animate"
+import { FooterComponent } from "@/components/ui/footer"
 
 export default function Home() {
   const [mounted, setMounted] = React.useState(false)
@@ -30,7 +31,7 @@ export default function Home() {
           height={600}
           priority
           unoptimized
-          className="w-[60vw] h-auto animate-fade-in"
+          className="w-[500px] md:w-[60vw] h-auto animate-fade-in"
         />
       </div>
 
@@ -278,12 +279,12 @@ export default function Home() {
           <div className="max-w-md mt-10 mx-auto flex flex-col gap-4">
             
             {/* Switch Workspaces */}
-            <div className="bg-gradient-to-br from-purple-300 to-purple-400 rounded-3xl p-6 flex flex-col justify-between overflow-hidden relative min-h-[350px]">
+            <div className="bg-gradient-to-br from-purple-300 to-purple-400 rounded-3xl pt-6 pr-6 pl-6 flex flex-col justify-between overflow-hidden relative min-h-[350px]">
               <div>
                 <h2 className="text-2xl text-purple-900 mb-2">Switch Workspaces</h2>
                 <p className="text-purple-800">Easily switch between different workspaces or sessions.</p>
               </div>
-              <div className="self-center mt-4">
+              <div className="  mt-4">
                 <Image
                   src="/Scene-1.gif"
                   alt="Switch Workspaces"
@@ -421,6 +422,9 @@ export default function Home() {
         </div>
       </section>
     )}
+    
+    {/* Footer */}
+    <FooterComponent />
     </>
   )
 }
