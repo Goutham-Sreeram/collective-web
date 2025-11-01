@@ -383,15 +383,11 @@ export default function Home() {
         </div>
 
         <div className=" relative z-0 flex items-center justify-center mt-[-45] pb-10">
-          <button
-            className="bg-blue-600 hover:bg-blue-700 text-white text-3xl px-9 py-5 rounded-3xl border-2 border-blue-700"
-            style={{ fontFamily: 'Cal Sans, sans-serif' }}
-            onClick={() =>
-              window.open("https://tally.so/r/m6b0aO", "_blank")
-            }
-          >
+      
+           <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }} onClick={() => window.open("https://tally.so/r/m6b0aO", "_blank")}>
           Join Wishlist Now
           </button>
+        
         </div>
       </div>
     </section>) : (
@@ -416,11 +412,8 @@ export default function Home() {
           </div>
 
           <div className=" relative z-0 flex items-center justify-center mt-[-25px] pb-10">
-            <button
-              className="bg-blue-600 hover:bg-blue-700 text-white text-2xl px-8 py-4 rounded-3xl border-2 border-blue-700"
-              style={{ fontFamily: 'Cal Sans, sans-serif' }}
-              onClick={() => window.open("https://tally.so/r/m6b0aO", "_blank")}
-            >
+            
+            <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }} onClick={() => window.open("https://tally.so/r/m6b0aO", "_blank")}>
               Join Wishlist Now
             </button>
           </div>

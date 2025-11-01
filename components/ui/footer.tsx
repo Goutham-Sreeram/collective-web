@@ -19,7 +19,7 @@ export function FooterComponent() {
         <div className="grid w-full gap-8 sm:flex sm:justify-between md:grid-cols-1">
           <div className="max-w-[200px] max-h-[200px]">
             <FooterBrand
-              href="https://flowbite.com"
+              href=""
               src="/logo.svg"
               
               className="text-white"
