@@ -112,7 +112,7 @@ export default function Home() {
             Keep your references close and your ideas closer
           </p>
           {/* CTA Button */}
-          <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-6 py-3 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }}>
+          <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-6 py-3 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }} onClick={() => window.open("https://tally.so/r/m6b0aO", "_blank")}>
             See Features and wishlist
           </button>
         </div>

@@ -54,7 +54,7 @@ export function FooterComponent() {
           <FooterCopyright href="#" by="Collective™" year={2025} className="text-white" />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             {/* <FooterIcon href="#" icon={BsFacebook} className="text-white hover:text-gray-200" /> */}
-            <FooterIcon href="#" icon={BsInstagram} className="text-white hover:text-gray-200" />
+            <FooterIcon href="https://www.instagram.com/thecollective.dev/" icon={BsInstagram} className="text-white hover:text-gray-200" />
             <FooterIcon href="#" icon={BsTwitter} className="text-white hover:text-gray-200" />
             <FooterIcon href="#" icon={BsGithub} className="text-white hover:text-gray-200" />
             {/* <FooterIcon href="#" icon={BsDribbble} className="text-white hover:text-gray-200" /> */}
