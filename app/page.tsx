@@ -112,7 +112,7 @@ export default function Home() {
             Keep your references close and your ideas closer
           </p>
           {/* CTA Button */}
-          <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-6 py-3 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }} onClick={() => window.open("https://tally.so/r/m6b0aO", "_blank")}>
+          <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-6 py-3 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }}>
             See Features and wishlist
           </button>
         </div>
@@ -229,7 +229,11 @@ export default function Home() {
             src="/gif2.gif"
             alt="Sample Image 1"
             width={800}
-            height={800}>
+            height={800}
+            style={{ 
+            clipPath: 'inset(0 0 15% 0)',
+            marginBottom: '-20px'
+            }}>
           </Image>
           </div>
         </div>
