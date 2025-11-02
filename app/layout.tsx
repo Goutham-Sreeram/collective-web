@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Collective",
   description: "View all your references in one place",
   openGraph: {
-    images: ["/tally-banner.png"]
+    images: ["https://collectiveboard.pages.dev/tally-banner.png"]
   }
 };
 
