@@ -47,7 +47,7 @@ export const Preloader: React.FC<PreloaderProps> = ({ isLoading, onFinish }) => 
   React.useEffect(() => {
     if (progress === 100 && lottieRef.current) {
       // Stop on the last frame when progress reaches 100
-      lottieRef.current.setSpeed(0.6) // Slow down the animation
+      lottieRef.current.setSpeed(0.3) // Slow down the animation
       lottieRef.current.goToAndStop(lottieRef.current.getDuration(true) * 1000, true)
     }
   }, [progress])
@@ -55,7 +55,7 @@ export const Preloader: React.FC<PreloaderProps> = ({ isLoading, onFinish }) => 
   return (
     <motion.div
       aria-hidden={!isLoading}
-      className="fixed inset-0 flex flex-col items-center justify-center bg-white z-[9999]"
+      className="fixed inset-0 flex flex-col items-center justify-center bg-white z-[9999] h-[100dvh] w-[100dvw]"
       initial={{ opacity: 1 }}
       animate={{ opacity: isLoading ? 1 : 0 }}
       transition={{ duration: 1, ease: [0.4, 0, 0.2, 1] }} // Smoother transition
@@ -67,7 +67,7 @@ export const Preloader: React.FC<PreloaderProps> = ({ isLoading, onFinish }) => 
           className="text-8xl font-medium tracking-tighter whitespace-pre-wrap text-black"
           style={{ fontFamily: 'Cal Sans, sans-serif' }}
         />
-        <div className="w-[300px] h-[300px] mb-2">
+        <div className="w-[300px] absolute bottom-0 cat">
           <Lottie
             lottieRef={lottieRef}
             animationData={catAnimation}
