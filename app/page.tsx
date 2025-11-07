@@ -91,21 +91,22 @@ export default function Home() {
                 references and ideas that powers your work
               </p>
               <div
-                className="flex justify-center gap-6 mt-4 mb-12 font-[CalSans]"
-                style={{ fontFamily: "Cal Sans, sans-serif" }}
-              >
-                {/* Linux Button */}
-                <div className="flex items-center gap-2 px-6 py-3 bg-green-50 text-green-900 rounded-xl shadow-sm hover:shadow-lg hover:bg-green-100 transition-all duration-200 cursor-pointer">
-                  <div className="w-2.5 h-2.5 bg-green-600 rounded-full"></div>
-                  <span className="text-base ">Linux</span>
-                </div>
+  className="flex justify-center gap-6 mt-4 mb-12 font-[CalSans]"
+  style={{ fontFamily: "Cal Sans, sans-serif" }}
+>
+  {/* Linux Button */}
+  <div className="flex items-center gap-2 px-6 py-3 bg-green-50 text-green-900 rounded-xl border border-green-300 shadow-sm hover:shadow-lg hover:bg-green-100 transition-all duration-200 cursor-pointer">
+    <div className="w-2.5 h-2.5 bg-green-600 rounded-full"></div>
+    <span className="text-base">Linux</span>
+  </div>
 
-                {/* Windows Button */}
-                <div className="flex items-center gap-2 px-6 py-3 bg-blue-50 text-blue-900 rounded-xl shadow-sm hover:shadow-lg hover:bg-blue-100 transition-all duration-200 cursor-pointer">
-                  <div className="w-2.5 h-2.5 bg-blue-600 rounded-full"></div>
-                  <span className="text-base ">Windows</span>
-                </div>
-              </div>
+  {/* Windows Button */}
+  <div className="flex items-center gap-2 px-6 py-3 bg-blue-50 text-blue-900 rounded-xl border border-blue-300 shadow-sm hover:shadow-lg hover:bg-blue-100 transition-all duration-200 cursor-pointer">
+    <div className="w-2.5 h-2.5 bg-blue-600 rounded-full"></div>
+    <span className="text-base">Windows</span>
+  </div>
+</div>
+
 
 
 
@@ -154,21 +155,22 @@ export default function Home() {
                 references and ideas that powers your work
               </p>
               <div
-                className="flex justify-center gap-6 mt-4 mb-12 font-[CalSans]"
-                style={{ fontFamily: "Cal Sans, sans-serif" }}
-              >
-                {/* Linux Button */}
-                <div className="flex items-center gap-2 px-6 py-3 bg-green-50 text-green-900 rounded-xl shadow-sm hover:shadow-lg hover:bg-green-100 transition-all duration-200 cursor-pointer">
-                  <div className="w-2.5 h-2.5 bg-green-600 rounded-full"></div>
-                  <span className="text-base ">Linux</span>
-                </div>
+  className="flex justify-center gap-6 mt-4 mb-12 font-[CalSans]"
+  style={{ fontFamily: "Cal Sans, sans-serif" }}
+>
+  {/* Linux Button */}
+  <div className="flex items-center gap-2 px-6 py-3 bg-green-50 text-green-900 rounded-xl border border-green-300 shadow-sm hover:shadow-lg hover:bg-green-100 transition-all duration-200 cursor-pointer">
+    <div className="w-2.5 h-2.5 bg-green-600 rounded-full"></div>
+    <span className="text-base">Linux</span>
+  </div>
 
-                {/* Windows Button */}
-                <div className="flex items-center gap-2 px-6 py-3 bg-blue-50 text-blue-900 rounded-xl shadow-sm hover:shadow-lg hover:bg-blue-100 transition-all duration-200 cursor-pointer">
-                  <div className="w-2.5 h-2.5 bg-blue-600 rounded-full"></div>
-                  <span className="text-base ">Windows</span>
-                </div>
-              </div>
+  {/* Windows Button */}
+  <div className="flex items-center gap-2 px-6 py-3 bg-blue-50 text-blue-900 rounded-xl border border-blue-300 shadow-sm hover:shadow-lg hover:bg-blue-100 transition-all duration-200 cursor-pointer">
+    <div className="w-2.5 h-2.5 bg-blue-600 rounded-full"></div>
+    <span className="text-base">Windows</span>
+  </div>
+</div>
+
               <button
                 className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-6 py-3 rounded-xl transition-colors duration-200 border-2 border-blue-700"
                 style={{ fontFamily: "Cal Sans, sans-serif" }}
