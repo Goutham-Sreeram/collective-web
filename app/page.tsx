@@ -115,9 +115,9 @@ export default function Home() {
               </button>
             </div>
           ) : (
-            <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
+            <div className="relative z-10 text-center max-w-3xl mx-auto px-5">
               <h1
-                className="text-6xl mb-6"
+                className="text-5xl md:text-6xl mb-6"
                 style={{ fontFamily: "Cal Sans, sans-serif", lineHeight: "0.8" }}
               >
                 <span className="text-blue-600">
