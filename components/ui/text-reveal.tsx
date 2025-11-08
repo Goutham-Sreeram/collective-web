@@ -14,7 +14,7 @@ export const TextReveal: FC<TextRevealProps> = ({ children, className }) => {
   // ✅ Faster + sooner reveal
   const { scrollYProgress } = useScroll({
     target: targetRef,
-    offset: ["start 90%", "end 90%"],
+    offset: ["start 80%", "end 90%"],
   })
 
   if (typeof children !== "string") {

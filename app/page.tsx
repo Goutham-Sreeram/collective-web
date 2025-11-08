@@ -113,9 +113,9 @@ export default function Home() {
               <button
                 className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl transition-colors duration-200 border-2 border-blue-700"
                 style={{ fontFamily: "Cal Sans, sans-serif" }}
-                onClick={() => window.open("https://tally.so/r/m6b0aO", "_blank")}
+                onClick={() => window.open("https://collective01.gumroad.com/l/collective", "_blank")}
               >
-                Add to Wishlist
+                Download Now
               </button>
             </div>
           ) : (
@@ -174,9 +174,9 @@ export default function Home() {
               <button
                 className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-6 py-3 rounded-xl transition-colors duration-200 border-2 border-blue-700"
                 style={{ fontFamily: "Cal Sans, sans-serif" }}
-                onClick={() => window.open("https://tally.so/r/m6b0aO", "_blank")}
+                onClick={() => window.open("https://collective01.gumroad.com/l/collective", "_blank")}
               >
-                Add to Wishlist
+                Download Now
               </button>
             </div>
           )}
@@ -610,8 +610,8 @@ export default function Home() {
               </div>
 
               <div className=" relative z-0 flex items-center justify-center mt-[-45] pb-10">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }} onClick={() => window.open("https://tally.so/r/m6b0aO", "_blank")}>
-                  Join Wishlist Now
+                <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }} onClick={() => window.open("https://collective01.gumroad.com/l/collective", "_blank")}>
+                  Download Now
                 </button>
               </div>
             </div>
@@ -637,8 +637,8 @@ export default function Home() {
               </div>
 
               <div className=" relative z-0 flex items-center justify-center mt-[-25px] pb-10">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }} onClick={() => window.open("https://tally.so/r/m6b0aO", "_blank")}>
-                  Join Wishlist Now
+                <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl transition-colors duration-200 border-2 border-blue-700" style={{ fontFamily: 'Cal Sans, sans-serif' }} onClick={() => window.open("https://collective01.gumroad.com/l/collective", "_blank")}>
+                  Download Now
                 </button>
               </div>
             </div>
