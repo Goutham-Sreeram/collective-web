@@ -106,10 +106,6 @@ export default function Home() {
     <span className="text-base">Windows</span>
   </div>
 </div>
-
-
-
-
               <button
                 className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl transition-colors duration-200 border-2 border-blue-700"
                 style={{ fontFamily: "Cal Sans, sans-serif" }}
@@ -128,22 +124,30 @@ export default function Home() {
                   <TextAnimate as="span" animation="blurInUp" by="character" once>
                     Never switch
                   </TextAnimate>
+                  <br />
                 </span>
-                <br />
+
                 <span className="text-blue-600">
                   <TextAnimate as="span" animation="blurInUp" by="character" once>
                     tabs
                   </TextAnimate>
+                  <br />
                 </span>{" "}
                 <span className="text-gray-600">
                   <TextAnimate as="span" animation="blurInUp" by="character" once>
                     to
                   </TextAnimate>
+                  <br />
                 </span>
-                <br />
                 <span className="text-gray-600">
                   <TextAnimate as="span" animation="blurInUp" by="character" once>
-                    reference again.
+                    reference
+                  </TextAnimate>
+                  <br />
+                </span>
+                <span className="text-gray-600">
+                  <TextAnimate as="span" animation="blurInUp" by="character" once>
+                    again.
                   </TextAnimate>
                 </span>
               </h1>
