@@ -131,7 +131,7 @@ export default function Home() {
                   <TextAnimate as="span" animation="blurInUp" by="character" once>
                     tabs
                   </TextAnimate>
-                  <br />
+                  
                 </span>{" "}
                 <span className="text-gray-600">
                   <TextAnimate as="span" animation="blurInUp" by="character" once>
