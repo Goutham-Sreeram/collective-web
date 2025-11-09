@@ -193,7 +193,7 @@ export default function Home() {
               {/* Action Buttons */}
               <div className="flex justify-center gap-4">
                 <button
-                  className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl transition-colors duration-200 border-2 border-blue-700"
+                  className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-6 py-3 rounded-xl transition-colors duration-200 border-2 border-blue-700"
                   style={{ fontFamily: "Cal Sans, sans-serif" }}
                   onClick={() =>
                     window.open("https://collective01.gumroad.com/l/collective", "_blank")
@@ -203,7 +203,7 @@ export default function Home() {
                 </button>
 
                 <button
-                  className="bg-white hover:bg-blue-50 text-blue-700 text-lg px-8 py-4 rounded-xl border-2 border-blue-700 transition-all duration-200"
+                  className="bg-white hover:bg-blue-50 text-blue-700 text-sm px-6 py-3 rounded-xl border-2 border-blue-700 transition-all duration-200"
                   style={{ fontFamily: "Cal Sans, sans-serif" }}
                   onClick={() =>
                     window.open("https://collective01.gumroad.com/l/collectivetrial", "_blank")
